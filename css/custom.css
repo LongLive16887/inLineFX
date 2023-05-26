@@ -1,0 +1,131 @@
+/* core styles */
+@media(min-width: 1920px){
+    .container{
+        max-width: 1140px;
+    }
+}
+  
+.navbar-toggler-icon{
+    color: white;
+}
+.ff_poppins{
+    font-family: "Poppins";
+}
+.text-white-custom{
+    color: white;
+}
+.text-yellow-custom{
+    color: yellow;
+ }
+ .text-blue-custom{
+    color: blue;
+ }
+
+body{
+    height: auto;
+    background-color: black;
+}
+.active_nav{
+    color: yellow;
+}
+
+/*Navbar*/
+.navbar-expand-md{
+    background-color: rgb(34, 31, 31);
+    opacity: 70%;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+}
+.navbar-expand-md .navbar-nav .nav-link:hover{
+    color: yellow;
+    border-bottom-color: yellow;
+    transition: 0.5s;
+}
+.navbar-brand:hover{
+    color: yellow;
+}
+ /*About*/
+.about{
+    padding: 115px 0px 115px 0px;
+ }
+
+ /*owners*/
+.owners{
+    padding: 100px 0px 100px 0px;
+}
+.owners_img_1,.owners_img_2{
+    height: 70%;
+    width: 100%;
+}
+ .card{
+    width: 20rem;
+    height: auto;
+    border: none;
+ }
+.card_img_1{
+    width: 13rem;
+    height: 13rem;
+}
+
+.card-body{
+    background-color: rgb(34, 31, 31);
+}
+
+
+/*Contact*/
+.contact{
+    padding: 80px 0px 100px 0px;
+}
+
+
+/*Footer*/
+.footer{   
+    padding-bottom: 75px;
+}
+.footer_row_1{
+    width: 140;
+}
+.ramka{
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid yellow;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link:hover {
+      border-bottom: none; 
+    }
+    .navbar-expand-md{
+        background-color: black;
+        opacity: 100%;
+    }
+    .about_image {
+      height: auto;
+      width: 100%;
+      max-width: 394px;
+    }
+    .about {
+      padding: 115px 0 50px 0;
+    }
+    .contact {
+      padding: 0px 0px 50px 0px;
+    }
+    .owners{
+        padding: 50px 0px 100px 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
